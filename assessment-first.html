@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Assessment</title>
+    <link rel="stylesheet" href="test.css"> <!-- Link to CSS for styling -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Medical Assessment</h1>
+        <div id="quiz-container">
+            <div id="timer"></div> <!-- This will display the countdown -->
+            <p id="question"></p> <!-- Where the question will appear -->
+            <form id="quiz-form">
+                <div id="options"></div> <!-- Where the options will appear -->
+                <button type="button" id="next-btn" onclick="nextQuestion()">Next</button>
+            </form>
+        </div>
+        <div id="result" style="display: none;">
+            <h2>Your Score:</h2>
+            <p id="score"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to JavaScript for interaction -->
+</body>
+
+</html>
